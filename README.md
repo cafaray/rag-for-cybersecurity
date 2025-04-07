@@ -1,6 +1,12 @@
 # RAG for Cybersecurity: Use Cases and Implementation
 This is the repository for the LinkedIn Learning course `RAG for Cybersecurity: Use Cases and Implementation`. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![lil-thumbnail-url]
+
+## Course Description
+
+This course provides an in-depth exploration of how retrieval-augmented generation (RAG) technology enhances cybersecurity. Gain a thorough understanding of RAG’s core components, including how it integrates with large language models to enhance data retrieval and analysis. The course focuses on practical use cases such as mapping cyber security logs and alerts to MITRE ATT&CK techniques, performing real-time gap analysis for governance, risk, and compliance (GRC) Join instructor Brennan Lodge to gain the knowledge and tools to implement RAG solutions, improving both proactive defense strategies and compliance processes in their organizations. This course is ideal for cybersecurity professionals, GRC experts, and data scientists seeking to leverage AI-driven solutions for enhanced security operations.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -20,15 +26,19 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### Instructor
+
+Brennan Lodge
+
+Cybersecurity Data Scientist | Speaker | Founder | Researcher
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/brennan-lodge?u=104).
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/rag-for-cybersecurity-use-cases-and-implementation
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQE11amsuV0i8w/learning-public-crop_675_1200/B4EZXYZ2LIGgAY-/0/1743092409901?e=2147483647&v=beta&t=FkPyTXmH20AleuXGeZnNeYfloYHyPMUKNWug92hnOaw
 
