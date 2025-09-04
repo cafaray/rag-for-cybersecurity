@@ -4,9 +4,9 @@
 *.gguf filter=lfs diff=lfs merge=lfs -text
 *.pt filter=lfs diff=lfs merge=lfs -text
 *.onnx filter=lfs diff=lfs merge=lfs -text
-
 # Optionally track other large artifacts (if needed)
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.h5 filter=lfs diff=lfs merge=lfs -text
-
+data/gpt4all-falcon-newbpe-q4_0.gguf filter=lfs diff=lfs merge=lfs -text
+data/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin filter=lfs diff=lfs merge=lfs -text
