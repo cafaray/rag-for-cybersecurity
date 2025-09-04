@@ -1,4 +1,77 @@
+# -----------------------------
+# Python & Virtual Environments
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+*.sqlite
+*.db
+
+# Virtual envs (uv, venv, pipenv, poetry)
+.venv/
+venv/
+env/
+.uv/
+
+# -----------------------------
+# Jupyter / VS Code
+# -----------------------------
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
+
+# -----------------------------
+# LangChain / Vectorstores
+# -----------------------------
+chroma/
+chroma_db/
+*.faiss
+*.hnsw
+index/
+
+# -----------------------------
+# Models & Embeddings
+# -----------------------------
+# HuggingFace / SentenceTransformers caches
+.cache/
+huggingface/
+transformers_cache/
+sentence_transformers/
+
+# GPT4All models
+models/*.bin
+models/*.gguf
+models/*.ggml
+
+# Allow keeping the models folder itself
+!models/.gitkeep
+
+# -----------------------------
+# Git LFS fallback (in case files not pushed)
+# -----------------------------
+*.bin
+*.gguf
+*.ggml
+*.pt
+*.onnx
+
+# -----------------------------
+# OS / Misc
+# -----------------------------
 .DS_Store
+Thumbs.db
+
 node_modules
 .tmp
 npm-debug.log
+
+modules
+chromadb_data
+.vscode
+.devcontainer
+
+./data/gpt4all-falcon-newbpe-q4_0.gguf
+./data/wizardlm-13b-v1.1-superhot-8k.ggmlv3.q4_0.bin
